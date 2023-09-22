@@ -9,31 +9,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Lépjen velünk kapcsolatba</h2>
-
-        <form action="/submit_form" method="post">
-
-          <label for="fname">Keresztnév</label><br>
-
-          <input type="text" id="fname" name="fname"><br>
-
-          <label for="lname">Vezetéknév</label><br> 
-
-          <input type="text" id="lname" name="lname"><br>
-
-          <label for="email">Email cím</label><br>
-
-          <input type="text" id="email" name="email"><br>
-
-          <label for="message">Üzenet</label><br>
-
-          <textarea id="message" name="message"></textarea><br>
-
-          <button type="button" id="myButton">Küldés</button>
-
-          <label for="myText" id="myText"></label>
-
-        </form>
-        <script src="app.js"></script>
+  <div class="container">
+    <form>
+        <h3>GET IN TOUCH</h3>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email id" required>
+        <input type="text" id="phone" placeholder="Phone no." required>
+        <textarea id="message" cols="30" rows="10" placeholder="How can we help you?"></textarea>
+        <button type="submit" id="myButton">Send</button>
+    </form>
+</div>
+<script src="app.js"></script>
 </body>
 </html>

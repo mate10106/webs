@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+article{
+    width: clamp(200px, 50%, 600px);
+}
+
+.container{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    background-image: url(/webs/webs/kepek/bejarat2.jpg);
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+form h3{
+    color: black;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background:whitesmoke;
+    font-size: 18px;
+    resize: none;
+}
+form button{
+    padding: 15px;
+    border-radius: 25px;
+    background: tomato;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+}
